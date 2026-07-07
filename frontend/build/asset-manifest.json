@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.448a0799.css",
+    "main.js": "/static/js/main.9fd2e362.js",
+    "static/media/slide1.jpg": "/static/media/slide1.8d895ae50ef7c471fc3a.jpg",
+    "static/media/slide4.jpg": "/static/media/slide4.bb7995630980418bcdcb.jpg",
+    "static/media/logo.png": "/static/media/logo.1fe84da7b2b348127b0c.png",
+    "static/media/slide2.jpg": "/static/media/slide2.adcf151ff10dfa9a571d.jpg",
+    "static/media/continental.png": "/static/media/continental.bdeaaa88a70fc349034d.png",
+    "static/media/semperit.png": "/static/media/semperit.ec0b58bd3ab84f23e9a9.png",
+    "static/media/slide3.jpg": "/static/media/slide3.7ec040031af120d33110.jpg",
+    "static/media/default.png": "/static/media/default.9a3c5467978114ba6b89.png",
+    "static/media/iris.png": "/static/media/iris.bd1ea6f0554cfb9ac236.png",
+    "static/media/naftal_logo.png": "/static/media/naftal_logo.2d56b46ce83eb92dd1f0.png",
+    "index.html": "/index.html",
+    "main.448a0799.css.map": "/static/css/main.448a0799.css.map",
+    "main.9fd2e362.js.map": "/static/js/main.9fd2e362.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.448a0799.css",
+    "static/js/main.9fd2e362.js"
+  ]
+}
