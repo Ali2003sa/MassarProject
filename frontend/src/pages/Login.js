@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import { loginAsRole } from '../api';
 import './Login.css';
 const MY_LOGO     = require('../assets/logo.png'); // استيراد الصورة هنا
-const NAFTAL_LOGO = require('../assets/naftal_logo.png');
 
 // ── Slides ────────────────────────────────────────────────────────────────────
 const SLIDES = [
@@ -79,7 +78,6 @@ export default function Login() {
   const [transitioning, setTrans] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const navigate = useNavigate();
-
   const [form, setForm]         = useState({ username: '', password: '' });
   const [showPass, setShowPass] = useState(false);
   const [loading, setLoading]   = useState(false);
@@ -198,7 +196,7 @@ export default function Login() {
       {/* ── NAVBAR ─────────────────────────────────────────────────────────── */}
       <nav className="lp-nav">
         <div className="lp-nav-left">
-          <img src={NAFTAL_LOGO} alt="NAFTAL" className="lp-nav-logo" />
+          <img src={MY_LOGO} alt="NAFTAL" className="lp-nav-logo" />
           <div className="lp-nav-divider" />
           <span className="lp-nav-app-name">Tyre Supply Chain Traceability System</span>
         </div>
@@ -232,9 +230,6 @@ export default function Login() {
 
             <div className="lp-modal-header">
 <div className="lp-modal-logos-container">
-    <img src={NAFTAL_LOGO} alt="NAFTAL" className="lp-modal-logo" />
-    <div className="lp-modal-logos-divider" /> {/* خط فاصل صغير وجميل بين اللوجوهين */}
-    <img src={MY_LOGO} alt="My Logo" className="lp-modal-logo-custom" /> {/* اللوجو الخاص بك */}
   </div>              <h3 className="lp-modal-title">Sign In</h3>
               <p className="lp-modal-sub">Tyre supply chain traceability system</p>
             </div>
