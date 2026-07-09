@@ -230,6 +230,8 @@ export default function Login() {
 
             <div className="lp-modal-header">
 <div className="lp-modal-logos-container">
+              <img src={MY_LOGO} alt="My Logo" className="lp-modal-logo-custom" /> {/* اللوجو الخاص بك */}
+
   </div>              <h3 className="lp-modal-title">Sign In</h3>
               <p className="lp-modal-sub">Tyre supply chain traceability system</p>
             </div>
